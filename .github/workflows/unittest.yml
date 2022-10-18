@@ -19,6 +19,6 @@ jobs:
       - name: Run Web Tests
         working-directory: ./packages/web
         run: |
-        npm i
-        npm test
+          npm i
+          npm test
         continue-on-error: false
